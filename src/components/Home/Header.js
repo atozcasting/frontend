@@ -121,7 +121,7 @@ export default function Header() {
               <ul className="py-4">
                 {
                   mobile_items.map(item => {
-                    return <li key={item.text}><Link href={item.url} className="block px-4 py-2 text-gray-800 hover:bg-gray-200">{item.text}</Link></li>
+                    return <li key={item.text}><Link href={item.url} onClick={toggleMenu} className="block px-4 py-2 text-gray-800 hover:bg-gray-200">{item.text}</Link></li>
                   })
                 }
               </ul>
