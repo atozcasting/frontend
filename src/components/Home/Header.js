@@ -33,7 +33,7 @@ export default function Header() {
     { text: 'Submit your audition', url: '/talent/musician/all' },
   ];
   const mobile_items = [
-    { text: 'Projects', url: '/page1' },
+    { text: 'Projects', url: '/casting' },
     { text: 'Hire Artist', url: '/page1' },
     { text: 'Services', url: '/page1' },
     { text: 'More', url: '/page1' },
